@@ -1,0 +1,507 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/*     
+    Author     : ammar
+*/
+
+
+.root{
+    -fx-background-color: #DCDCDC;
+}
+
+
+
+.text-field {
+    -fx-font-family: "Roboto", sans-serif;
+    -fx-font-size: 12px;
+    -fx-background-color: #fff;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4px;
+    -fx-padding: 8px;
+    -fx-max-width: 800px;
+}
+
+.text-field:hover {
+    -fx-border-color: #aaa;
+}
+
+.text-field:focused {
+    -fx-border-color: #0077FF;
+    -fx-border-width: 2px;
+}
+
+
+.combo-box {
+    -fx-font-family: "Roboto", sans-serif;
+    -fx-font-size: 12px;
+    -fx-background-color: #fff;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4px;
+    -fx-padding: 0px;
+}
+
+.combo-box .arrow-button {
+    -fx-background-color: transparent;
+}
+
+.combo-box:hover {
+    -fx-border-color: #aaa;
+}
+
+.combo-box:focused {
+    -fx-border-color: #0077FF;
+    -fx-border-width: 2px;
+}
+
+
+
+#leftBox{
+    -fx-background-color: #2C2C2C;
+
+}
+
+
+
+#topBar{
+    -fx-background-color: #ffffff;
+
+}
+
+
+
+
+#logOut{
+    -fx-background-color: #2C2C2C;
+    -fx-font-size: 24px;
+    -fx-alignment: center;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+#logOut:hover {
+    -fx-background-color: #b20000;
+}
+
+#userLabel{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+
+}
+
+#Home {
+    -fx-text-align: center;
+    -fx-background-color: #D9D9D9;
+    -fx-text-fill: black;
+    -fx-font-size: 20px;
+    -fx-padding: 1px 15px;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 10px;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+
+}
+
+#Home:hover {
+    -fx-background-color: #bdbdbd;
+}
+
+
+
+#Add {
+    -fx-text-align: center;
+    -fx-background-color: #D9D9D9;
+    -fx-text-fill: black;
+    -fx-font-size: 20px;
+    -fx-padding: 1px 15px;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 10px;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+
+}
+
+#Add:hover {
+    -fx-background-color: #bdbdbd;
+}
+
+
+#Edit {
+    -fx-text-align: center;
+    -fx-background-color: #D9D9D9;
+    -fx-text-fill: black;
+    -fx-font-size: 20px;
+    -fx-padding: 1px 15px;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 10px;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+
+}
+
+#Edit:hover {
+    -fx-background-color: #bdbdbd;
+}
+
+#Search {
+    -fx-text-align: center;
+    -fx-background-color: #D9D9D9;
+    -fx-text-fill: black;
+    -fx-font-size: 20px;
+    -fx-padding: 1px 15px;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 10px;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+
+}
+
+#Search:hover {
+    -fx-background-color: #bdbdbd;
+}
+
+#searchMenuBox{
+
+    -fx-background-color: #2C2C2C;
+    -fx-background-radius: 10px;
+
+}
+
+
+.list-cell:even {
+    -fx-background-color: white;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #0093ff;
+    -fx-text-fill: white;
+}
+
+
+#Delete {
+    -fx-text-align: center;
+    -fx-background-color: #D9D9D9;
+    -fx-text-fill: black;
+    -fx-font-size: 20px;
+    -fx-padding: 1px 15px;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 10px;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+
+}
+
+#Delete:hover {
+    -fx-background-color: #bdbdbd;
+}
+#deleteuser{
+
+    -fx-background-color: #2C2C2C;
+    -fx-font-size: 24px;
+    -fx-alignment: center;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+#deleteuser:hover {
+    -fx-background-color: #b20000;
+}
+
+#addUserButton{
+
+    -fx-background-color: #2C2C2C;
+    -fx-font-size: 22px;
+    -fx-alignment: center;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+#addUserButton:hover {
+    -fx-background-color: #3cb371;
+}
+
+#editStudentButton{
+    -fx-background-color: #2C2C2C;
+    -fx-font-size: 22px;
+    -fx-alignment: center;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+
+}
+#editStudentButton:hover{
+    -fx-background-color: #3cb371;
+}
+
+#editStudentButton2{
+    -fx-background-color: #2C2C2C;
+    -fx-font-size: 22px;
+    -fx-alignment: center;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+
+}
+#editStudentButton2:hover{
+    -fx-background-color: #3cb371;
+}
+
+#MoreData {
+    -fx-text-align: center;
+    -fx-background-color: #D9D9D9;
+    -fx-text-fill: black;
+    -fx-font-size: 20px;
+    -fx-padding: 1px 15px;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 10px;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+
+}
+
+#MoreData:hover {
+    -fx-background-color: #bdbdbd;
+}
+
+#topBar{
+    -fx-background-color: #0D0D0D;
+}
+
+#WhiteDatabox{
+    -fx-background-color: #ffffff;
+
+}
+
+#PWMTbox{
+    -fx-background-color: #DCDCDC;
+
+}
+
+#PWMSbox{
+    -fx-background-color: #DCDCDC;
+}
+
+#DWMRbox{
+
+    -fx-background-color: #DCDCDC;
+
+}
+
+#MoredataLabels{
+    -fx-text-align: center;
+    -fx-text-fill: black;
+    -fx-font-size: 13px;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+
+}
+
+.table-view{
+
+    -fx-focus-color: black;
+    -fx-background-color: black;
+}
+
+.table-view .column-header {
+    -fx-background-color: black;
+    -fx-padding: 0 0 5px 0;
+}
+
+.table-view .column-header .label{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-alignment: CENTER_LEFT;
+}
+
+
+.table-view .cell{
+    -fx-cell-size: 35;
+    -fx-alignment: center-left;
+    -fx-background-color: #2C2C2C;
+    -fx-border-color: #323232;
+    -fx-text-fill: lightgray;
+    -fx-alignment: CENTER_LEFT;
+
+}
+.table-view .cell :hover {
+
+    -fx-background-color: #f0f0ff;
+    -fx-text-fill: black;
+
+}
+
+
+
+
+
+.table-view .increment-button ,.table-view .decrement-button {
+    -fx-background-color:transparent;
+    -fx-background-radius: 2em;
+
+}
+
+
+
+.table-view .scroll-bar:horizontal .track,
+.table-view .scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color:derive( #2C2C2C,80%);
+
+    -fx-background-radius: 2em;
+    -fx-border-radius:2em;
+}
+
+
+.table-view .scroll-bar:horizontal .thumb,
+.table-view .scroll-bar:vertical .thumb {
+    -fx-background-color:derive( #2C2C2C,90%);
+    -fx-background-insets: 2, 0, 0;
+    -fx-background-radius: 2em;
+
+}
+
+#viewuserstablebtn{
+
+
+    -fx-text-align: center;
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-padding: 1px 15px;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+
+}
+
+#viewuserstablebtn:hover {
+    -fx-background-color: #3cb371;
+}
+
+
+
+#viewtripstablebtn{
+
+
+    -fx-text-align: center;
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-padding: 1px 15px;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+
+}
+
+#viewtripstablebtn:hover {
+    -fx-background-color: #3cb371;
+}
+
+
+#userdatabox{
+
+    -fx-background-color: #1F2022;
+    -fx-background-radius: 10px;
+
+}
+#dataofuser{
+
+    -fx-text-fill: #f0f0ff;
+    -fx-font-weight: bold;
+    -fx-font-size: 17px;
+
+}
+
+#closebox{
+
+    -fx-text-align: center;
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 35px;
+    -fx-padding: 1px 15px;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 10px;
+    -fx-cursor: hand;
+
+
+}
+
+#totalRevenueTripsLabel{
+
+    -fx-text-align: center;
+    -fx-text-fill: black;
+    -fx-background-color: transparent;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+
+
+
+
+}
+
+#textContent{
+
+    -fx-background-color: black;
+    -fx-background: #2C2C2C;
+    -fx-font-size: 18px;
+    -fx-fill: white;
+    -fx-background-radius: 10px;
+
+}
+.scroll-pane {
+    -fx-background-color: black;
+    -fx-background: #2C2C2C;
+    -fx-text-fill: white;
+    -fx-background-radius: 10px;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: white;
+    -fx-background-radius: 5em;
+}
+.scroll-pane .corner {
+    -fx-background-color: black;
+}
+
+#tripsofuser{
+    -fx-background-color: #2C2C2C;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+#TripdataContainer{
+    -fx-background-color: #2C2C2C;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+#scrollpane{
+    -fx-background-color: #2C2C2C;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+
+}
+
+#closebox:hover{
+
+    -fx-background-color: #b20000;
+
+
+} 

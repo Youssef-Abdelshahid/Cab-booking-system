@@ -1,0 +1,264 @@
+
+#email{
+
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-border-color: black;
+
+
+
+
+}
+
+#modelYearTextField{
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-border-color: black;
+}
+
+#pass5{
+
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-border-color: black;
+
+}
+
+.scroll-pane {
+    -fx-background-color: black;
+    -fx-background: #2C2C2C;
+    -fx-text-fill: white;
+    -fx-background-radius: 10px;
+        -fx-font-size: 18px;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: white;
+    -fx-background-radius: 5em;
+}
+.scroll-pane .corner {
+    -fx-background-color: black;
+}
+
+
+#submitButton {
+
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-border-color: black;
+
+
+}
+
+#BackButton{
+
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-border-color: black;
+    -fx-cursor: HAND;
+    -fx-font-size: 18px;
+    -fx-text-align: center;
+
+
+}
+
+#BTA{
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-background-color: green;
+    -fx-cursor: HAND;
+    -fx-border-color: black;
+    -fx-font-size: 24; 
+     -fx-FontWeight:bold;
+}
+#BTA:hover{
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-background-color: WHITE;
+    -fx-cursor: HAND;
+    -fx-border-color: black;
+}
+
+#submitButton:hover {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-border-color: black;
+    -fx-cursor: HAND;
+}
+
+#creatacc {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-border-color: black;
+
+}
+
+#creatacc:hover {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-background-radius: 12;
+    -fx-border-color: black;
+    -fx-cursor: HAND;
+}
+#createAccountLabel{
+    -fx-font-size: 29;
+    -fx-font-weight: bold;
+
+
+
+}
+#driverToggleButton{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-border-color: black;
+    -fx-cursor: HAND;
+}
+#passengerToggleButton{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-border-color: black;
+    -fx-cursor: HAND;
+}
+
+#driverToggleButton:selected {
+    -fx-background-color: black;
+    -fx-text-fill: white
+}
+
+#passengerToggleButton:selected {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+#saveButton{
+
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-border-color: black;
+    -fx-cursor: HAND;
+}
+#clearButton{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-border-color: black;
+    -fx-cursor: HAND;
+
+}
+#field{
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-border-color: black;
+}
+#navbar{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-border-color: transparent;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-cursor: HAND;
+    -fx-font-size: 24;
+    -fx-FontWeight:bold;
+}
+#navbar:hover{
+
+    -fx-background-color: green;
+    -fx-text-fill: white;
+    -fx-border-color: black;
+    -fx-cursor: HAND;
+
+}
+#navbar:selected{
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-background-color: green;
+    -fx-text-fill: white;
+    -fx-border-color: green;
+
+}
+#PF1{
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-border-color: black;
+
+}
+#reqbutton{
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-background-color: green;
+    -fx-cursor: HAND;
+}
+#reqbutton:hover{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+#sid{
+
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 16;
+
+}
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+
+}
+
+#Backbt{
+    -fx-background-color: white;
+    -fx-cursor: HAND;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+
+}
+#Backbt:hover{
+    -fx-background-color: black;
+    -fx-cursor: HAND;
+    -fx-text-fill: white;
+}
+
+#BTA{
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-background-color: green;
+    -fx-cursor: HAND;
+    -fx-border-color: black;
+}
+#BTA:hover{
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-background-color: WHITE;
+    -fx-cursor: HAND;
+    -fx-border-color: black;
+}
